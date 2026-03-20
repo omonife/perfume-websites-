@@ -1,0 +1,219 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: white;
+}
+
+.logo{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding: 20px;
+    margin: 0;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-links a:hover{
+    color: plum;
+}
+
+
+
+.hero-img img{
+    width: 100%;
+    height: 500%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+    text-align: center;
+}
+
+.hero-text h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-text p{
+    margin-bottom: 30px;
+}
+
+.hero-text button{
+    padding: 20px;
+    background: white;
+   border-radius: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.hero-text a:hover{
+    color: plum;
+}
+
+.products{
+    padding: 50px;
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    gap: 20px;
+}
+
+.products img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.products h1{
+    font-weight: 25px;
+    font-size: large;
+}
+
+.products button{
+    padding: 20px;
+    background: white;
+   border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: large; 
+}
+
+.testimonial{
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.quotes{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.stars{
+    color: gold;
+}
+
+.offers {
+    position: relative;
+    text-align: center;
+    background: white;
+    padding: 10px;
+}
+
+.offers-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    gap: 10px;
+}
+
+.offers img{
+    width: 600px;
+    display: block;
+    border-radius: 10px;
+}
+
+.offers-text{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.offer-card{
+    position: relative;
+    width: 350px;
+    margin: 10px;
+}
+
+.offer-card h2{
+    font-weight: 20px;
+    font-size: 40px;
+}
+
+.offer-card p{
+    font-size: 20px;
+}
+
+.offers-text button{
+    padding: 20px;
+    background:goldenrod;
+   border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: large;  
+}
+
+.Newsletter{
+    text-align: center;
+    padding: 50px;
+    background: whitesmoke;
+}
+
+.Newsletter h1{
+    font-size: 30px;
+    font-weight: 20px;
+}
+
+.Newsletter p{
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+.subcribe-box{
+    margin-top: 20px;
+}
+
+.subcribe-box input{
+    padding: 15px;
+    width: 250px;
+}
+
+.subcribe-box button{
+     padding: 20px;
+     width: 250px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: large;  
+}
